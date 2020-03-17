@@ -1,0 +1,16 @@
+== Verschluesselung
+Grundsaetzlich dient eine Verschluesselung dazu, Dateien oder Inhalte vor Unbefugten zu schuetzen.
+
+=== Symmetrische verschluesselung
+Bei der symetrischen Verschluesselung wird jeweils derselbe Schlüssel bei Person A und B verwendet. Die symetrische Verschlüsselung gilt als sicherer als die asymetrischen Verschlüsselung.
+
+=== Asymetrische verschluesselung
+Während bei der asymetrischen Verschluesselung Zwei unterschiedliche Teile des Schlüssels die Personen besitzen und den anderen Teil dann berechnen können.
+
+
+
+
+=== Befehle 
+
+
+

@@ -1,0 +1,44 @@
+== grundlagen
+
+
+
+
+
+=== zahlensysteme
+
+
+==== binaere
+
+==== dezimal
+
+==== octal
+
+==== hex
+
+
+
+
+
+
+
+
+
+
+
+
+=== mooresches gesetz
+
+
+
+
+
+
+
+
+
+
+=== wahrheitstabellen
+
+
+
+

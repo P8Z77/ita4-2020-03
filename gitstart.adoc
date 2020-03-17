@@ -1,0 +1,87 @@
+= GIT
+
+:encoding: utf-8
+:lang: de
+:keywords: git, grundlagen, erste einrichtung für git
+:revision: 0.0.1
+:revnumber:
+:revdate: 
+:revremark: 
+:copyright: me me and only me
+:author: fs
+:email: fs@example.com
+:toc:
+:toc-title: gitstart
+ 
+Copyright: {copyright} +
+Author: {author} +
+eMail: {email} +
+Version: {revision} +
+// vim set: syntax=asciidoc
+
+toc::[]
+
+== Erste Einrichtung für GIT
+
+Um mit GIT richtig umzugehen, bedarf es zu Anfang grundlegender Einrichtungen, die wir hier erklären wollen. Dazu werden wir jeden Schritt darstellen umso im späteren Verlauf alles nachvollziehen zu können.
+
+=== Erstellen eines Zielverzeichnis und Repository
+
+Zu allerst Erstellen wir ein GIT Repository, ein sogenanntes Zielverzeichnis, von dem aus GIT Daten verwalten kann. Alle Dateien müssen im Repository oder Unterverzeichnis vorhanden sein. 
+
+----
+mkdir NamedesVerzeichnis
+----
+
+dann wechseln wir in das erstellte Verzeichnis mit :
+
+----
+cd NamedesVerzeichnis
+----
+
+Jetzt erstellen wir das GIT Repository :
+
+----
+git init
+----
+
+
+
+
+=== Erstellen einer Datei, Verändern, Committen, Staging-Zustand
+
+Wir erstellen die erste Datei in unserem Verzeichnis. Zum Beispiel:
+
+----
+vi first.txt
+----
+
+und fügen sie mit 
+
+----
+git add .
+----
+
+oder
+
+----
+git add file
+----
+
+hinzu.
+
+Den derzeitigen Status kontrollieren wir mit dem Befehl :
+
+----
+git status
+----
+
+Wir müssen aber die Datei noch bestätigen, und tun das mit dem Committen :
+
+----
+git commit -m ' Sinnvolle Kurzbeschreibung über Änderung '
+----
+
+Die Beschreibung dient der Zweckmäßigkeit. Das soll bedeuten, dass die Beschreibung das Wiedergeben soll, was wir geschrieben, getan, hinzugefügt oder verändert haben. Je kürzer und konkreter desto besser wird man im späteren Verlauf mögliche Änderungen auch finden. Diese Beschreibungen sind mit einem Inhaltsverzeichnis vergleichbar. Die Mühe für sinnvolle Beschreibungen wird also belohnt wenn man etwas sucht, um einen voherigen Zustand möglicherweise wieder her zu stellen.
+
+

@@ -1,0 +1,29 @@
+   1  apt-get
+    2  apt-get install chrome-gnome-shell
+    4  apt-get update
+    5  apt-get upgrade
+    6  apt-get install oneko
+    7  apt-get install vim
+   10  apt-get install ruby-asciidoctor-pdf
+   18  apt install tmux
+   20  apt-get install python-nwdiag  python-blockdiag graphviz rubygems graphviz
+   22  apt-get remove ruby-asciidoctor-pdf ruby-asciidoctor ruby-ascii85
+   23  apt-get install java-common default-jre
+   29  history | grep apt
+   34  history | apt
+   35  history | get apt
+   36  history | grep apt
+
+
+
+
+
+
+  20  apt-get install python-nwdiag  python-blockdiag graphviz rubygems graphviz
+   21  gem install asciidoctor-diagram
+   24  gem install asciidoctor-diagram
+   25  gem install asciidoctor-pdf
+   26  gem install asciidoctor
+   27  history | grep gem
+   37  history | grep gem
+

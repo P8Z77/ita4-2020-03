@@ -1,0 +1,133 @@
+= Test Dokument
+
+:encoding: utf-8
+:lang: de
+:keywords: asciidoc, tables, documentation
+:revision: 0.5.0
+:revnumber:
+:revdate: 
+:revremark: 
+:copyright: Ich einfach unverbesserlich
+:author: fs
+:email: fs@example.com
+:toc:
+:toc-title: Inhaltsverzeichnis
+
+Copyright: {copyright} +
+Author: {author} +
+eMail: {email} +
+Version: {revision} +
+// vim set: syntax=asciidoc
+
+toc::[]
+
+Eine *Zeile* Text.
+Zweite Zeile Text. +
+Dritte +Zeile+ Text.
+
+Vierte Zeile Text.
+
+
+
+*This is bold text*
+
+_This is cursiv text_
+
+`This is mono text`
+
+image::./img/logo.svg[Firmenlogo]
+
+* [*] checked
+* [x] also checked
+* [ ] not checked
+*     normal list item
+
+https://asciidoctor.org[Asciidoctor]
+
+
+
+== headline 1
+
+some chars
+
+== Dita Example
+
+[ditaa]
+....
+                   +-------------+                                                                  
+                   | Asciidoctor |-------+                                                          
+                   |   diagram   |       |                                                          
+                   +-------------+       | PNG out                                                  
+                       ^                 |                                                          
+                       | ditaa in        |                                                          
+                       |                 v                                                          
+ +--------+   +--------+----+    /---------------\
+ |        | --+ Asciidoctor +--> |               |                                                  
+ |  Text  |   +-------------+    |   Beautiful   |                                                  
+ |Document|   |   !magic!   |    |    Output     |                                                  
+ |     {d}|   |             |    |               |                                                  
+ +---+----+   +-------------+    \---------------/                                                   
+....
+
+
+
+
+
+
+== headline 2
+
+more chars
+
+=== headline 2.1
+
+some more chars
+
+==== Obst
+
+* Apfel
+* Banane
+* Birne
+
+=== Gemuese
+
+. Kohl
+.. Blumenkohl
+... krauser Blumenkohl
+. Zwiebeln
+. Moehren
+
+
+=== Ein Befehl
+
+[source,bash]
+.Ausgabe von Zeichen via HEX Wert
+----
+echo -e "\x41"  <1>
+----
+
+<1> Es muessen doppelte Anfuehrungszeichen verwendet werden.
+
+== Personen
+
+[width="60%",cols="<50,<30,>20",options="header,footer"]
+|===
+| Name
+| Geburtsdatum
+| Schuhgroesse
+
+| Peter
+| 20.02.1980
+| 45
+
+| Ute
+| 01.05.1976
+| 38
+
+|===
+
+
+== Der Vi
+
+include::vi.adoc[]
+
+

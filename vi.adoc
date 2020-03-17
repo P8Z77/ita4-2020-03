@@ -1,0 +1,62 @@
+== Vi Befehle
+
+
+== Bewegungstasten
+
+[width="60%",cols="<50,<30",options="header,footer"]
+|===
+|Buchstabe
+|Bewegung
+
+|h
+|links
+
+|j
+|runter
+
+|k
+|hoch
+
+|i
+|rechts
+
+|===
+
+== Befehle
+
+[width="60%",cols="<50,<30",options=header,footer"]
+|===
+|Buchstabe
+|Befehl
+
+|y
+|kopieren
+
+|p
+|einfügen
+
+|d
+|Zeile löschen
+
+|x
+|Zeichen löschen
+
+|===
+
+== Commands
+
+[width="60%",cols="<50,<30",options=header,footer"]
+|===
+|Kurzbefehl
+|Beschreibung
+
+|:w
+|schreiben
+
+|:q
+|verlassen
+
+|:set number 
+|Anzeigen von Zeilennummer
+
+|===
